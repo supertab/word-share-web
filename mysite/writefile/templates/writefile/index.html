@@ -1,0 +1,35 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <style>
+    .botCenter{width:100%; height:35px; line-height:35px; background:#ccc; position:fixed; bottom:0px; left:0px; font-size:14px; color:#000; text-align:center;}
+    textarea{ resize:none; width:50%; height:100px;}
+    </style>
+    </head>
+
+    <body>
+        <h2> Write Something Here </h2>
+        <br>
+        <form action='/' method="post">
+            {% csrf_token %}
+            <label for="your_name">Messege: </label>
+            <input id="your_name" type="text" name="your_name">
+            <input type="submit" value="Send">
+        </form>
+        <br />
+        服务器已经保存: {{getname}}
+        <br />
+        <hr>
+        <br />
+        历史记录:<br />
+        <br />
+        <form>
+            <textarea name="wenben">{{history}}</textarea>
+        </form>
+        <br /> <br />
+        <hr>
+
+        <div class="botCenter"> [-- zooo --] </div>
+    </body>
+
+</html>

@@ -1,0 +1,6 @@
+http://baidu.com
+Hello world
+name
+wahat
+One thing you may want to take into account when testing this quickstart with distro-supplied packages
+The quick brown fox jumps over the lazy dog.
