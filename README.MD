@@ -25,7 +25,7 @@ media下的：/home/zooo/word-share-web/mysite/media;
 # 启动服务及测试
 - **启动 nginx：** `sudo /etc/init.d/nginx start`
 - **启动 uwsgi：** `uwsgi --ini uwsgi.ini`
-- **测试：**在浏览器中输入 `127.0.0.1:801`进入文字分析网页
+- **测试：** 在浏览器中输入 `127.0.0.1:801`进入文字分享网页
 
 # 让同一个局域网中的电脑能够访问
 - 得到本机 ip
