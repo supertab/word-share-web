@@ -24,11 +24,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 SECRET_KEY = 'y2-mbk2t(^tyzm@=(+8eu&*%p*-*_lmj+^oo8m#wq)$m7#yqk7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['10.13.6.115',
+ALLOWED_HOSTS = [
         '127.0.0.1',
-        '222.28.39.107',
         ]
 
 
