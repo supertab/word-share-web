@@ -6,6 +6,13 @@
 - **接收数据：**
 设备接入局域网，访问数据中转网页，在网页中的文本显示区可以复制文本到设备的剪贴板中
 
+- **PC端截图**
+
+![](https://im1.shutterfly.com/ng/services/mediarender/THISLIFE/021009631031/media/122865592779/medium/1490972195242/enhance)
+- **手机端截图**
+
+![](https://im1.shutterfly.com/ng/services/mediarender/THISLIFE/021009631031/media/122865596670/small/1490972583950/enhance)
+
 # 详细步骤
 - [简书_ubuntu中的web服务器配置](http://www.jianshu.com/p/0988624ff307)
 
